@@ -29,7 +29,7 @@ const Posts = () => {
 
   return (
     <div>
-        {loading && <div className="text-white">Loading hudai xa... parkhanu holaa...</div>}
+        {loading && <div className="text-white flex justify-center">Loading hudai xa... parkhanu holaa...</div>}
       {data.map(item => (
         <div className="bg-white m-3 rounded-lg">
             <div key={item.id} className=" m-4">
